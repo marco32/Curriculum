@@ -1,0 +1,22 @@
+footer{
+	background: lighten($primary-color,10%);
+	width: 100%;
+	display: flex;
+	text-align: center;
+	div:first-child{
+		width: 30%;
+		div{
+			div{
+
+				display: inline-flex;
+			}
+		}
+	}
+	div:last-child{
+		width: 70%;
+		div{
+			width: 100%;
+		display: flex;			
+		}
+	}
+}

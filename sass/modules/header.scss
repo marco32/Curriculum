@@ -1,0 +1,17 @@
+header{
+	background: $primary-color;
+	height: 30%;
+	width: 100%;
+	display: flex;
+		div:first-child{
+			width: 80%;
+			text-align: center;
+		}
+		div:last-child{
+			height: 5%;
+		}
+}
+.img{
+	width: 11em;
+	height: 11em;
+}
