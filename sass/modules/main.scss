@@ -6,24 +6,27 @@ body{
 	width: 30%;
 }
 .icone{
-					width: 1em;
-					height: 1em;
-					margin-right: 1em;
-				}
+	width: 1em;
+	height: 1em;
+	margin-right: 1em;
+}
 li{
 	list-style: none;
 }
 main{
+	h3{
+		margin-bottom: 0px;
+	}
 	background: lighten($primary-color,5%);
-		text-align: center;
+	text-align: center;
 	
 	width: 100%;
 	display: flex;
 	section:first-child{
 		width: 80%;
 		div:first-child{
-		display: inline-flex;
-		width: 100%;
+			display: inline-flex;
+			width: 100%;
 			div:first-child{
 				width: 30%;
 				margin-right: 0.5em;
@@ -32,8 +35,8 @@ main{
 			div:last-child{
 				width: 100%;
 				div{
-				text-align: left;
-				display: flex;
+					text-align: left;
+					display: flex;
 					div{
 						margin-left: 5em; 
 						width: 50%;
@@ -44,11 +47,53 @@ main{
 	}
 	section:last-child{
 		width: 20%;
-		padding-top: 5%;
+		padding-top: 1%;
 		div:last-child{
+			h4{
+				margin-top:0;
+				margin-bottom: 0;
+			}
 			ul{
+				display: inline;
 				text-align: left;
 			}
 		}
 	}
+}
+section.end{
+		background: lighten($primary-color,10%);
+		width: 100%;
+		display: flex;
+		text-align: center;
+		div:first-child{
+			width: 30%;
+			div{
+				div{
+
+					display: inline-flex;
+				}
+			}
+		}
+		div:last-child{
+			width: 70%;
+			div{
+				width: 100%;
+				display: flex;			
+				ul{
+					margin-top: 0px;
+				}
+			}
+		}
+	}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
 }
