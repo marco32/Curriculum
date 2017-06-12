@@ -14,6 +14,7 @@ header {
   height: 11em; }
 
 body {
+  width: 100%;
   font-size: 20px;
   margin: 0px; }
 
@@ -28,6 +29,24 @@ body {
 li {
   list-style: none; }
 
+.icones {
+  width: 3em; }
+
+.size1 {
+  width: 4.3em;
+  margin-right: 2em; }
+
+.size2 {
+  width: 3.3em;
+  margin-right: 2em;
+  margin-left: 0.5em; }
+
+.size3 {
+  width: 5em; }
+
+.size4 {
+  margin-left: 0.7em; }
+
 main {
   background: #cdcdcd;
   text-align: center;
@@ -40,6 +59,10 @@ main {
     main section:first-child div:first-child {
       display: inline-flex;
       width: 100%; }
+      main section:first-child div:first-child h3 {
+        margin-left: 1.5em; }
+      main section:first-child div:first-child h4 {
+        margin-left: 1.5em; }
       main section:first-child div:first-child div:first-child {
         width: 30%;
         margin-right: 0.5em;
