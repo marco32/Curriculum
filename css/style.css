@@ -71,10 +71,10 @@ main {
       display: inline-flex;
       width: 100%; }
       main section:first-child div:first-child h3 {
-        margin-left: 1.5em; }
+        margin-left: 1em; }
       main section:first-child div:first-child h4 {
         margin-top: 3em;
-        margin-left: 1.5em; }
+        margin-left: 1em; }
       main section:first-child div:first-child div:first-child {
         width: 30%;
         margin-right: 0.5em;

@@ -1,5 +1,4 @@
 header {
- 
   height: 30%;
   width: 100%;
   display: flex; }
@@ -7,12 +6,18 @@ header {
     width: 80%;
     text-align: center; }
   header div:last-child {
-    height: 5%; }
+    height: 5%; 
+  }
 
 .img {
   width: 11em;
-  height: 11em; }
+  height: 11em; 
+}
+h1,h2,h3,h4,h5{
 
+ 
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
 body {
   width: 100%;
   font-size: 20px;
@@ -63,7 +68,7 @@ main {
       main section:first-child div:first-child h3 {
         margin-left: 1em; }
       main section:first-child div:first-child h4 {
-        margin-left: 1em; }
+        margin-left: 0.5em; }
       main section:first-child div:first-child div:first-child {
         width: 30%;
         margin-right: 0.2em;
