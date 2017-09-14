@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5{
   margin-left: 2em;
 }
 header {
-  background: silver;
+  background: #adb5bd;
   height: 30%;
   width: 100%;
   display: flex; }
@@ -26,7 +26,7 @@ header {
 
 body {
   width: 100%;
-  font-size: 20px;
+  font-size: 24px;
   margin: 0px; }
 
 .left {
@@ -42,24 +42,10 @@ li {
 
 .icones {
   width: 3em; }
-
-.size1 {
-  width: 4.3em;
-  margin-right: 2em; }
-
-.size2 {
-  width: 3.3em;
-  margin-right: 2em;
-  margin-left: 0.5em; }
-
-.size3 {
-  width: 5em; }
-
-.size4 {
-  margin-left: 0.7em; }
-
+.align-li{
+  padding-right: 1em;
+}
 main {
-  background: #cdcdcd;
   text-align: center;
   width: 100%;
   display: flex; }
@@ -76,7 +62,8 @@ main {
         margin-top: 3em;
         margin-left: 1em; }
       main section:first-child div:first-child div:first-child {
-        width: 30%;
+    
+        width: 20%;
         margin-right: 0.5em;
         display: inline; }
       main section:first-child div:first-child div:last-child {
@@ -90,15 +77,14 @@ main {
   main section:last-child {
     width: 20%;
     padding-top: 2%; }
-    main section:last-child div:last-child h4 {
+    main section:last-child h4 {
       margin-top: 0;
       margin-bottom: 0; }
-    main section:last-child div:last-child ul {
-      display: inline;
+    main section:last-child li {
+      margin-top: 2em;
       text-align: left; }
 
 section.end {
-  background: #dadada;
   width: 100%;
   display: flex;
   text-align: center; }

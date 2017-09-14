@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5{
   font-family: Times, "Times New Roman", Georgia, serif;
 }
 body {
+  font-size: 18;
   width: 100%;
   font-size: 20px;
   margin: 0px; }
@@ -68,7 +69,7 @@ main {
       main section:first-child div:first-child h3 {
         margin-left: 1em; }
       main section:first-child div:first-child h4 {
-        margin-left: 0.5em; }
+        margin-left: 1em; }
       main section:first-child div:first-child div:first-child {
         width: 30%;
         margin-right: 0.2em;
