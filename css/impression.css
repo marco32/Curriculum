@@ -1,5 +1,5 @@
 header {
-  background: silver;
+ 
   height: 30%;
   width: 100%;
   display: flex; }
@@ -33,21 +33,22 @@ li {
   width: 3em; }
 
 .size1 {
-  width: 4.3em;
-  margin-right: 2em; }
+  width: 2.15em;
+  margin-right: 1em; }
 
 .size2 {
-  width: 3.3em;
-  margin-right: 2em;
+  width: 1.65em;
+  margin-right: 1em;
   margin-left: 0.5em; }
 
 .size3 {
-  width: 5em; }
+  width: 2.5em; }
 
 .size4 {
   margin-left: 0.7em; }
 
 main {
+  font-size: 16px;
   background: #cdcdcd;
   text-align: center;
   width: 100%;
@@ -55,18 +56,17 @@ main {
   main h3 {
     margin-bottom: 0px; }
   main section:first-child {
-    width: 80%; }
+    width: 70%; }
     main section:first-child div:first-child {
       display: inline-flex;
       width: 100%; }
       main section:first-child div:first-child h3 {
-        margin-left: 1.5em; }
+        margin-left: 1em; }
       main section:first-child div:first-child h4 {
-        margin-top: 3em;
-        margin-left: 1.5em; }
+        margin-left: 1em; }
       main section:first-child div:first-child div:first-child {
         width: 30%;
-        margin-right: 0.5em;
+        margin-right: 0.2em;
         display: inline; }
       main section:first-child div:first-child div:last-child {
         width: 100%; }
@@ -74,11 +74,11 @@ main {
           text-align: left;
           display: flex; }
           main section:first-child div:first-child div:last-child div div {
-            margin-left: 5em;
+            margin-left: 2em;
             width: 50%; }
   main section:last-child {
-    width: 20%;
-    padding-top: 2%; }
+    width: 30%;
+    padding-top: 4%; }
     main section:last-child div:last-child h4 {
       margin-top: 0;
       margin-bottom: 0; }
@@ -87,6 +87,7 @@ main {
       text-align: left; }
 
 section.end {
+  font-size: 14px;
   background: #dadada;
   width: 100%;
   display: flex;
