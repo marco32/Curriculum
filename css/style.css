@@ -1,3 +1,14 @@
+@font-face{
+  font-family: "New";
+  src: url('New.ttf');
+}
+h1,h2,h3,h4,h5{
+
+  font-family: "New";
+}
+.align{
+  margin-left: 2em;
+}
 header {
   background: silver;
   height: 30%;
